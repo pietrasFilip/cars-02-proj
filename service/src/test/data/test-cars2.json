@@ -1,0 +1,128 @@
+[
+  {
+    "id": 2,
+    "model": "AUDI",
+    "price": 1200,
+    "mileage": 900,
+    "engine": {
+      "id": 2,
+      "type": "LPG",
+      "power": 158.2
+    },
+    "carBody": {
+      "id": 2,
+      "color": "BLACK",
+      "type": "HATCHBACK",
+      "components": ["A"]
+    },
+    "wheel": {
+      "id": 2,
+      "model": "A",
+      "size": 18,
+      "tyreType": "WINTER"
+    }
+  },
+  {
+    "id": 1,
+    "model": "BMW",
+    "price": 2000,
+    "mileage": 250,
+    "engine": {
+      "id": 1,
+      "type": "DIESEL",
+      "power": 150.2
+    },
+    "carBody": {
+      "id": 1,
+      "color": "RED",
+      "type": "COMBI",
+      "components": [
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    "wheel": {
+      "id": 1,
+      "model": "A",
+      "size": 20,
+      "tyreType": "SUMMER"
+    }
+  },
+  {
+    "id": 3,
+    "model": "HONDA",
+    "price": 1000,
+    "mileage": 800,
+    "engine": {
+      "id": 3,
+      "type": "DIESEL",
+      "power": 110.4
+    },
+    "carBody": {
+      "id": 3,
+      "color": "GREEN",
+      "type": "COMBI",
+      "components": [
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "wheel": {
+      "id": 3,
+      "model": "A",
+      "size": 19,
+      "tyreType": "SUMMER"
+    }
+  },
+  {
+    "id": 4,
+    "model": "SEAT",
+    "price": 2000,
+    "mileage": 350,
+    "engine": {
+      "id": 4,
+      "type": "GASOLINE",
+      "power": 280.54
+    },
+    "carBody": {
+      "id": 4,
+      "color": "RED",
+      "type": "COMBI",
+      "components": ["D"]
+    },
+    "wheel": {
+      "id": 3,
+      "model": "A",
+      "size": 19,
+      "tyreType": "SUMMER"
+    }
+  },
+  {
+    "id": 5,
+    "model": "FORD",
+    "price": 5000,
+    "mileage": 250,
+    "engine": {
+      "id": 5,
+      "type": "GASOLINE",
+      "power": 200.8
+    },
+    "carBody": {
+      "id": 5,
+      "color": "BLACK",
+      "type": "HATCHBACK",
+      "components": [
+        "B",
+        "D"
+      ]
+    },
+    "wheel": {
+      "id": 3,
+      "model": "A",
+      "size": 19,
+      "tyreType": "SUMMER"
+    }
+  }
+]
