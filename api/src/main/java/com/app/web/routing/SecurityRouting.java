@@ -94,8 +94,8 @@ public class SecurityRouting {
 
                         var tokens = tokensService.generateTokens(userId);
                         response.header("Content-Type", "application/json;charset=utf-8");
-                        response.cookie("access", tokens.access(), 3600000, false, true);
-                        response.cookie("refresh", tokens.refresh(), 3600000, false, true);
+                        response.cookie("/", "access", tokens.access(), 3600000, false, true);
+                        response.cookie("/", "refresh", tokens.refresh(), 3600000, false, true);
                         return new ResponseDto<>(tokens);
                     },
                     jsonTransformer

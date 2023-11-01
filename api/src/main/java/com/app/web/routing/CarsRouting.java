@@ -110,7 +110,7 @@ public class CarsRouting {
                     get(
                             "/:components",
                             (request, response) -> {
-                                var components = Arrays.stream(request.params("component")
+                                var components = Arrays.stream(request.params("components")
                                         .split("-"))
                                         .collect(Collectors.toSet());
                                 response.header("Content-Type", "application/json;charset=utf-8");
